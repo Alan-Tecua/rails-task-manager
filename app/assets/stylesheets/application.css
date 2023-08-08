@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(255, 153, 0);
+}

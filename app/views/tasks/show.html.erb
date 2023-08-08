@@ -1,0 +1,6 @@
+<div>
+  <h1><%=@task.title%></h1>
+  <p class="alert alert-dark"><%= @task.details %></p>
+  <%= link_to 'Tasks List', tasks_path, class: 'btn btn-warning'%>
+  <%= link_to 'Edit task', edit_task_path, class: 'btn btn-secondary'%>
+</div>
